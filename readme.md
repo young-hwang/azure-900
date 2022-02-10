@@ -62,5 +62,7 @@ Azure는 private and public cloud plantform으로 개발자와 it 관리자의 �
 
 Azure는 Virtualization 기술을 사용 한다.
 
-Virtualization은 컴퓨터 하드웨어와 OS
+Virtualization은 컴퓨터 하드웨어와 OS의 결합을 분리 시킨다.
+
+
 
