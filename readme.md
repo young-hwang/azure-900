@@ -1,3 +1,5 @@
+# 1. 핵심 Azure 개념
+
 ## 1. 클라우드 컴퓨팅
 
 인터넷을 통한 컴퓨팅 서비스 제공
@@ -67,4 +69,14 @@ Virtualization은 Hypervisor라는 추상화 layer를 사용하여 컴퓨터 하
 Hypervisor는 물리적 컴퓨터의 모든 부분들을 emulate 하고 이것이 가상 머신 cpu가 된다.
 
 제한된 하드웨어의 활용을 최적화 한다.
+
+이는 동시에 여러개의 Virtual Machine을 가동시키고 각각의 Virtual Machine은 Windows, Linux 같은 operating system을 구동 할 수 있다.
+
+Azure는 Virtualization technology 가지고 있고 전 세계 도처의 Microsoft data center의 거대한 스케일을 이용한다.
+
+각각의 데이터 센터는 서버로 가득채워진 많은 랙을 가지며 각각의 서버는 multiple virtual machine을 구동하기 위한 Hypervisor를 포함하고 있다.
+
+network switch는 이러한 서버들에 대하여 연결성을 제공한다.
+
+각각의 랙에 있는 하나의 서버는 Fabric Controller라 불리는 특별한 소프트웨어를 실행한다.
 
