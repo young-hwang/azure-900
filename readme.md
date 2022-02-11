@@ -62,7 +62,9 @@ Azure는 private and public cloud plantform으로 개발자와 it 관리자의 �
 
 Azure는 Virtualization 기술을 사용 한다.
 
-Virtualization은 컴퓨터 하드웨어와 OS의 결합을 분리 시킨다.
+Virtualization은 Hypervisor라는 추상화 layer를 사용하여 컴퓨터 하드웨어와 OS의 결합을 분리 시킨다.
 
+Hypervisor는 물리적 컴퓨터의 모든 부분들을 emulate 하고 이것이 가상 머신 cpu가 된다.
 
+제한된 하드웨어의 활용을 최적화 한다.
 
