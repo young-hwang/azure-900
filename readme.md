@@ -102,4 +102,6 @@ web API는 Azure Portal의 사용자 Inteface를 포함한 다양한 툴들로 �
 
 Fabric Controllers가 virtual machine이 생성되어 졌을 때 사용자는 이것에 접근 할수 있다.
 
-## 8. 
+## 8. Azure Portal
+
+Azure Portal은 명령줄 도구의 대안을 제공하는 
