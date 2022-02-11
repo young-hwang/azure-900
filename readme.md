@@ -78,7 +78,7 @@ Azure는 Virtualization technology 가지고 있고 전 세계 도처의 Microso
 
 network switch는 이러한 서버들에 대하여 연결성을 제공한다.
 
-![Fabric Controller](https://github.com/young-hwang/azure-900/blob/main/img/1.png = 100x)
+<img src="https://github.com/young-hwang/azure-900/blob/main/img/1.png" width="50%" />
 
 각각의 랙에 있는 하나의 서버는 Fabric Controller라 불리는 특별한 소프트웨어를 실행한다.
 
