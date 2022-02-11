@@ -52,13 +52,13 @@
 - 원활한 하이브리드 운영 : 온-프레미스, 클라우드, 에지 등 원하는 위치에서 운영
 - 신뢰할 수 있는 클라우드 : 능동적 규정 준수와 보안 전문가 팀의 지원을 통해 보안성 확보
 
-## Azure로 무엇을 할 수 있나?
+## 6. Azure로 무엇을 할 수 있나?
 
 클라우드는 가상 머신을 실행하기 위한 다른 장소 이상의 의미를 가짐
 
 AI, 기계학습 서비스, 동적으로 확장되는 스토리지 솔루션 등
 
-## Azure 작동 방식
+## 7. Azure 작동 방식
 
 Azure는 private and public cloud plantform으로 개발자와 it 관리자의 빌드, 배포, 애플리케이션 관리를 돕니다.
 
@@ -82,3 +82,14 @@ network switch는 이러한 서버들에 대하여 연결성을 제공한다.
 
 각각의 랙에 있는 하나의 서버는 Fabric Controller라 불리는 특별한 소프트웨어를 실행한다.
 
+<img src="https://github.com/young-hwang/azure-900/blob/main/img/2.png" width="50%" />
+
+각 Fabric Contorller는 흔히 Orchestrator라도 알려진 또 다른 특별한 소프트웨어와 연결 된다.
+
+<img src="https://github.com/young-hwang/azure-900/blob/main/img/3.png" width="50%" />
+
+Orchestrator는 Azure에서 사용자 요청에 응답하는 것을 포함하여 일어나는 모든 일을 책임진다.
+
+<img src="https://github.com/young-hwang/azure-900/blob/main/img/4.png" width="50%" />
+
+사용자들은 Orchestrator의 web API를 사용하여 요청한다.
