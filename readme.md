@@ -84,7 +84,7 @@ network switch는 이러한 서버들에 대하여 연결성을 제공한다.
 
 <img src="https://github.com/young-hwang/azure-900/blob/main/img/2.png" width="50%" />
 
-각 Fabric Contorller는 흔히 Orchestrator라도 알려진 또 다른 특별한 소프트웨어와 연결 된다.
+각 Fabric Contorller는 흔히 Orchestrator라고 알려진 또 다른 특별한 소프트웨어와 연결 된다.
 
 <img src="https://github.com/young-hwang/azure-900/blob/main/img/3.png" width="50%" />
 
@@ -93,3 +93,13 @@ Orchestrator는 Azure에서 사용자 요청에 응답하는 것을 포함하여
 <img src="https://github.com/young-hwang/azure-900/blob/main/img/4.png" width="50%" />
 
 사용자들은 Orchestrator의 web API를 사용하여 요청한다.
+
+web API는 Azure Portal의 사용자 Inteface를 포함한 다양한 툴들로 부터 요청이 되어 질 수 있다.
+
+사용자가 새로운 Virtual Machine을 생성하는 요청을 만들었을 때 Orchestrator packges의 모든 것 들이 필요해진다.
+
+최상의 Server rack을 선택하고 package를 전송과 fabric controller에 요청을 한다. 
+
+Fabric Controllers가 virtual machine이 생성되어 졌을 때 사용자는 이것에 접근 할수 있다.
+
+## 8. 
