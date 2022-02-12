@@ -98,10 +98,127 @@ web API는 Azure Portal의 사용자 Inteface를 포함한 다양한 툴들로 �
 
 사용자가 새로운 Virtual Machine을 생성하는 요청을 만들었을 때 Orchestrator packges의 모든 것 들이 필요해진다.
 
-최상의 Server rack을 선택하고 package를 전송과 fabric controller에 요청을 한다. 
+최상의 Server rack을 선택하고 package를 전송과 fabric controller에 요청을 한다.
 
 Fabric Controllers가 virtual machine이 생성되어 졌을 때 사용자는 이것에 접근 할수 있다.
 
 ## 8. Azure Portal
 
-Azure Portal은 명령줄 도구의 대안을 제공하는 
+Azure Portal은 명령줄 도구의 대안을 제공하는 웹 기반의 통합 콘솔이다.
+
+- 간단한 웹앱에서 복잡한 클라우드 배포까지 모든 것을 구축, 관리 및 모니터링
+- 리소스를 편하게 볼수 있는 사용자 지정 대시보드
+- 내게 필요한 옵션을 구성하여 최적의 환경 설정
+
+## 9. Azure Marketplace
+
+Azure에서 실행되도록 최적화된 솔루션과 서비스를 제공하는 Microsoft 파트너, 독립 소프트웨어 공급업체, 스타트업을 사용자와 연결해 준다.
+모든 솔루션 및 서비스는 Azure에서 실행되도록 인증된 것이다.
+
+## 10. Azure 서비스 둘러보기
+
+가장 일반적으로 사용되는 범주
+
+- Compute
+- 웹
+- 네트워킹
+- IoT(사물 인터넷)
+- 스토리지
+- 빅 데이터
+- 모바일
+- AI
+- 데이터 베이스
+- DevOps
+
+### a. Compute
+
+컴퓨팅 서비스는 회사가 Azure 플랫폼으로 이전하는 주된 이유이다. Azure에서는 애플리케이션 및 서비스를 호스팅하는 다양한 옵션을 제공한다.
+
+|서비스 이름|서비스 기능|
+|:--|:--|
+|Azure Virtual Machine|Azure에서 호스트된 Windows 또는 Linux VM(가상 머신)|
+|Azure Virtual Machine Scale Sets|Azure에서 호스트된 Windows 또는 Linux VM의 스케일링|
+|Azure Kubernetes Service|컨테이너화된 서비스를 실행하는 VM을 위한 클러스트 관리|
+|Azure Service Fabric|Azure 또는 온-프레미스에서 실행되는 분산 시스템 플랫폼|
+|Azure Batch|병렬 및 고성능 컴퓨팅 애플리케이션을 위한 관리 서비스|
+|Azure Container Instance|서버 또는 VM을 ***프로비저닝***하지 않고 Azure에서 실행되는 컨테이너화된 앱|
+|Azure Functions|이벤트 기반의 서버리스 컴퓨팅 서비스|
+
+### b. 네트워킹
+
+컴퓨팅 리소스를 연결하고 애플리케이션에 대한 액세스를 제공하는 것이 Azure 네트워킹의 주요 기능이다.
+
+Azure의 네트워킹 기능에는 글로벌 Azure 데이터 센터의 서비스 및 기능을 외부 환경에 연결하는 다양한 옵션이 포함되어 있다.
+
+|서비스 이름|서비스 기능|
+|:--|:--|
+|Azure Virtual Network|수신 VPN(가상 사설망) 연결에 VM을 연결|
+|Azure Load Balancer|애플리케이션 또는 서비스 엔드포인트에 대한 인바운드 및 아웃바운드 연결의 균형을 맞춤|
+|Azure Application Gateway|애플리케이션 보안을 강화하는 동시에 앱 ***서버 팜*** 제공을 최적화|
+|Azure VPN Gateway|고성능 VPN 게이트웨이를 통해 Azure 가상 네트워크에 액세스|
+|Azure DNS|매우 빠른 DNS 응답과 매우 높은 도메인 가용성 제공|
+|Azure Content Delivery Network|전 세계 고객에게 고대역폭 콘텐츠 제공|
+|Azure DDoS Protection|Azure에서 호스트되는 애플리케이션을 DDoS 공격으로 보호|
+|Azure Traffic Manager|전 세계 Azure 지역에 네트워크 트래픽 분산|
+|Azure ExpressRoute|고대역폭 전용 보안 연결을 통해 Azure 연결|
+|Azure Network Watcher|시나리오 기반 분석을 사용하여 네트워크 문제를 모니터링하고 진단|
+|Azure Firewall|스케일링 성능에 제한이 없고 보안 수준이 높은 고가용성 방화벽 구현|
+|Azure Virtual WAN|로컬 사이트와 원격 사이트를 연결하는 통합 WAN(광역 네트워크) 구축|
+
+### c. Storage
+
+공통 특성
+- 중복 및 복제 기능을 갖추고 있어 내구성과 가용성이 뛰어남
+- 자동 암호화와 역할 기반 액세스 제어를 통해 보안을 유지
+- 스토리지 제한이 없어 확장성이 뛰어남
+- 유지 관리 및 사용자에 대한 중요한 문제를 관리
+- HTTP 또는 HTTPS를 통해 전 세계 어디에서나 액세스
+
+|서비스 이름|서비스 기능|
+|:--|:--|
+|Azure Blob Storage|비디오 파일이나 비트맵 같은 대규모 개체를 위한 스토리지 서비스|
+|Azure File Storage|파일 서버처럼 액세스하고 관리할 수 있는 파일 공유|
+|Azure Queue Storage|애플리케이션 간 메세지 큐에 넣고 안정적으로 전달하기 위한 데이터 저장소|
+|Azure Table Storage|비관계형 정형 데이터(정형 NoSQL 데이터)를 클라우드에 저장하여 키/특성 스토어에 스키마 없는 설계 제공|
+
+### d. Mobile
+
+개발자가 iOS, Android 및 Windows 앱용 모바일 백 엔드 서비스를 쉽고 빠르게 만들수 있다.
+
+- 오프라인 데이터 동기화
+- 온-프레미스 데이터 연결
+- 푸시 알림 브로드캐스트
+- 비즈니스 요구 사한과 일치하다록 자동 크기 조정
+
+### e. Database
+
+Azure에서는 다양한 형식과 볼륨의 데이터를 저장하도록 여러 데이터 베이스 서비스 제공
+
+|서비스 이름|서비스 기능|
+|:--|:--|
+|Azure Cosmos DB|NoSQL 옵션을 지원하는 글로벌 분산형 데이터베이스|
+|Azure SQL Database|자동 스케일링과 필수 인텔리전스, 강력한 보안으로 관리되는 관계형 데이터베이스|
+|Azure Database for MySQL|고가용성, 보안이 포함된 스케일링 가능한 MySQL 관계형 데이터베이스|
+|Azure Database for PostgreSQL|고가용성, 보안이 포함된 스케일링 가능한 PostgreSQL 관계형 데이터베이스|
+|Azure Virtual Machines SQL Server|클라우드에서 엔터프라이즈 SQL Server 앱을 호스트하는 서비스|
+|Azure Synapse Anyalytics|추가 비용 없이 모든 스케일링 수준에서 필수 보안을 제공하며 완벽히 관리되는 데이터 웨어하우스|
+|Azure Database Migration Service|애플리케이션 코드 변경 없이 데이터베이스를 클라우드로 마이그레이션하는 서비스|
+|Azure Cache for Redis|자주 사용하는 정적 데이터를 캐시하여 데이터 및 애플리케이션 대기 시간을 줄이는 완전 관리형 서비스|
+|Azure Database for MariaDB|고가용성, 보안이 포함된 스케일링 가능한 PostgreSQL 관계형 데이터베이스|
+
+### f. Web
+
+Azure에서는 웹앱 및 HTTP 기반 웹 서비스의 빌드 및 호스트에 대한 지원
+
+|서비스 이름|서비스 기능|
+|:--|:--|
+|Azure App Service|클라우드 웹 기반 앱을 신속하게 만든다|
+|Azure Notification Hubs|백 엔드에서 원하는 플랫폼으로 푸시 알림을 전송|
+|Azure API Management|개발자, 파트너 및 직원에게 API를 안전하게 대규모로 게시|
+|Azure Cognitive Search|완전 관리형 SaaS(Search as a Service)를 배포|
+|Azure App Service의 Web Apps 기능|업무용 웹앱을 대규모로 만들고 배포|
+|Azure SignalR Service|실시간 웹 기능을 쉽게 추가|
+
+### g. IoT
+
+
