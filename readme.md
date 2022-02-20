@@ -836,4 +836,6 @@ Azure Portal or Visual Studio에서 비주얼 디자이너를 사용하여 논�
 |시스템 상태|상태 비저장, Durable Functions가 상태 제공|상태 저장|
 |개발|코드 중심(명력정)|디자이너 중심(선언적)|
 |연결|약 12개의 기본 제공 타인딩 형식|대규모의 커넥션 컬렉션|
-|작업|활동 함수에 
+|작업|활동 함수에 대한 코드 작성|즉시 사용 가능한 작업의 대규모 컬렉션|
+|모니터링|Azure Appliccation Insights|Azure Portal, Log Analytics|
+
