@@ -858,4 +858,4 @@ Azure Portal or Visual Studio에서 비주얼 디자이너를 사용하여 논�
 ### 3. Azure Virtual Desktop의 몇 가지 주요 기능
 
 - 간소화된 관리 : Azure AD 및 RBAC를 사용하여 리소스에 대한 액세스 관리. VM 배포 자동, 업데이트 관리, 재해 복구 제공. Azure Monitor를 사용하여 관리.
--
+- 성능 관리 : VM 호스트 풀에서 사용자의 부하를 분산하는 옵션을 제공. 호스트 풀은 동일한 구성이 할당된 VM 컬렉션.
