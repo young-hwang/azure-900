@@ -796,11 +796,11 @@ Serveless 컴퓨팅은 서버, 인프라 및 운영 체제의 추상화.
 
 ## 5. Azure Functions를 사용하는 경우 결정
 
-서버리스 컴퓨팅은 서버, 인프라, 운영 체제의 추상화. 
+서버리스 컴퓨팅은 서버, 인프라, 운영 체제의 추상화.
 서빈인프라 관리 및 수요에 따른 리소스 할당 및 할당 해제 처리
 
-- 서버의 추상화 : 실행하는 서버 추상화. 서버 인스턴스 명식적 예약하지 않음. 플랫폼에서 관리. 각 함수는 다른 인스턴스에서 실행될 수 있음. 
-- 이벤트 기반 크기 조정 : 예정된 이벤트에 응답하는 워크로드에 적합. 
+- 서버의 추상화 : 실행하는 서버 추상화. 서버 인스턴스 명식적 예약하지 않음. 플랫폼에서 관리. 각 함수는 다른 인스턴스에서 실행될 수 있음.
+- 이벤트 기반 크기 조정 : 예정된 이벤트에 응답하는 워크로드에 적합.
 - 마이크로 청구 : 코드가 실행되는 시간에 대해서만 비용 지불
 
 ### 1. Azure의 Serverless Computing
@@ -838,4 +838,24 @@ Azure Portal or Visual Studio에서 비주얼 디자이너를 사용하여 논�
 |연결|약 12개의 기본 제공 타인딩 형식|대규모의 커넥션 컬렉션|
 |작업|활동 함수에 대한 코드 작성|즉시 사용 가능한 작업의 대규모 컬렉션|
 |모니터링|Azure Appliccation Insights|Azure Portal, Log Analytics|
+|관리|REST API, Visual Studio|Azure Portal, REST API, Power Shell, Visual Studio|
+|실행 컨텍스트|로컬, 클라우드에서 실행|클라우드에서만 실행|
 
+## 6. Azure Virtual Desktop 사용하는 경우 결정
+
+### 1. Azure Virtual Desktop이란?
+
+클라우드에서 실행되는 데스크톱 및 애플리케이션 가상화 서비스.
+모든 위치에서 클라우드 호스트 버전의 Windows 사용.
+원격 데스크톱 및 앱에서 액세스하는 데 사용할 수 있는 앱에서 작동.
+최신의 브라우저를 이용하여 Azure Virtual Desktop에 액세스.
+
+### 2. Azure Virtual Desktop을 사용해야 하는 이유
+
+- 최적의 사용자 환경 : 인터넷을 통해 모든 디바이스에서 연결. 사용자의 데이터 센터, 클라우드에 연결되는 앱 및 서비스 근처에서 세션 호스트 VM이 실행되게할 수 있음. 개인 (영구) 데스크탑을 통해 개별 소유권 제공.
+- 보안 강화 : Azure Virtual Desktop은 Azure AD(Azure Active Directory)를 사용하는 사용자 데스크탑에 대한 중앙 집중식 보안 관리 제공. RBAC(Role Base Access Control)를 사용자에게 할당하여 데이터 액세스 보하.
+
+### 3. Azure Virtual Desktop의 몇 가지 주요 기능
+
+- 간소화된 관리 : Azure AD 및 RBAC를 사용하여 리소스에 대한 액세스 관리. VM 배포 자동, 업데이트 관리, 재해 복구 제공. Azure Monitor를 사용하여 관리.
+-
